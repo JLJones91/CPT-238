@@ -1,0 +1,39 @@
+body
+{
+	background: linear-gradient(white,green);
+	font-family: arial;
+}
+
+#logo
+{
+	width: 320px;
+	height: 104px;
+	background-image: url("logo.jpg");
+}
+
+#CA 
+{
+	font-size: 18px;
+	width: 200px;
+	height: 25px;
+	padding-left: 10px;
+	padding-top: 8px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}
+
+h2
+{
+	font-size: 16px;
+}
+
+#FS
+{
+	width: 500px;
+}
+
+.errMsg
+{
+	color: red;
+}

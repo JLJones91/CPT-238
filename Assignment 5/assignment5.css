@@ -1,0 +1,48 @@
+body
+{
+	background-color: green;
+}
+
+#webTitle
+{
+	font-family: cursive;
+	font-size: 48px;
+	color: blue;
+}
+
+#goatPic
+{
+	width: 500px;
+	height: 500px;
+	background-image: url("goat.jpg");
+}
+
+#duckPic
+{
+	width: 500px;
+	height: 500px;
+	background-image: url("duck.jpg");
+	display: none;
+}
+
+#chickenPic
+{
+	width:500px;
+	height: 500px;
+	background-image: url("chicken.jpg");
+}
+
+#turkeyPic
+{
+	width: 500px;
+	height: 500px;
+	background-image: url("turkey.jpg");
+	display: none;
+}
+
+#credit
+{
+	font-family: cursive;
+	font-size: 24px;
+	color: red;
+}

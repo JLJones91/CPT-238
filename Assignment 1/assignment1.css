@@ -1,0 +1,17 @@
+.formal{
+		font-family: Arial;
+		font-weight: bold;		
+		font-size: 24pt;
+		color: gray;
+	   }
+	   
+.list{
+		font-family: Times;
+		font-style: italic;
+		font-size: 20pt;
+		color: blue;
+	 }
+
+body{
+	background-color: wheat;
+	}

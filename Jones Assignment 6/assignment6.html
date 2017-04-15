@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Assignment 6</title>
+	<link href="assignment6.css" rel="stylesheet">
+	
+	<style>
+	</style>
+    
+	<script src="jquery-1.12.1.min.js"></script>
+    <script src="assignment6.js"></script>
+	
+	<script>
+	</script>
+
+</head>
+<body>
+
+<div id = "logo"></div>
+
+<h1 id = "CA">Create An Account</h1>
+		
+<form id = "custForm" action = "FormProcessor.html" method = "get">
+	<h2>Your Preferences</h2>
+	
+	<label>Most Frequently Used Operating System: </label><select id = "OS" name = "OS">
+		<option selected disabled hidden>Operating System</option>
+		<option value = "win8">Windows 8</option>
+		<option value = "win7">Windows 7</option>
+		<option value = "droid">Android</option>
+		<option value = "macOS">Mac OS</option>
+		<option value = "oOther">Other</option>
+	</select>
+	
+	<label> Most Frequently Used Software: </label><select id = "sWare" name = "sWare">
+		<option selected disabled hidden>Software</option>
+		<option value = "games">Games</option>
+		<option value = "busApp">Business Applications</option>
+		<option value = "proApp">Programming Applications</option>
+		<option value = "socNet">Social Networking</option>
+		<option value = "sOther">Other</option>
+	</select>
+	
+	<h2>Customer Information</h2>
+	
+	* Required Information
+	</br></br>
+	
+	<div class = "formElement">
+	<label for = "fName">First Name:* </label>
+		<input type = "text" name = "fName" id = "fName">
+		<span class = "errMsg" id = "errFname"></span>
+	</div></br>
+	
+	<div class = "formElement">
+		<label for = "lName">Last Name:* </label>
+			<input type = "text" name = "lName" id = "lName">
+			<span class = "errMsg" id = "errLname">
+	</div></br>
+	
+	<div class = "formElement">
+		<label for = "add1">Street Address 1:* </label>
+			<input type = "text" name = "add1" id = "add1">
+			<span class = "errMsg" id = "errAdd1"></span>
+	</div></br>
+	
+	<div class = "formElement">
+		<label for = "add2">Street Address 2: </label>
+			<input type = "text" name ="add2" id = "add2">
+			<span class = "errMsg" id = "errAdd2"></span>
+	</div></br>
+	
+	<div class = "formElement">
+		<label for = "city">City:* </label>
+			<input type = "text" name = "city" id = "city">
+			<span class = "errMsg" id = "errCity"></span>
+	</div></br>
+	
+	<div class = "formElement">
+		<label for = "state">State:* </label>
+			<input type = "text" name = "state" id = "state">
+			<span class = "errMsg" id = "errState"></span>
+	</div></br>
+	
+	<div class = "formElement">
+		<label for = "zip">Zip Code:*</label>
+			<input type = "text" name = "zip" id = "zip">
+			<span class = "errMsg" id = "errZip"></span>
+	</div></br>
+	
+	<div class = "formElement">
+		<label for = "phone">Phone: </label>
+			<input type = "text" name = "phone" id = "phone">
+			<span class = "errMsg" id = "errPhone"></span>
+	</div></br>
+	
+	<div class = "formElement">
+		<label for ="email"> E-Mail Address:* </label>
+			<input type = "text" name = "eMail" id = "eMail">
+			<span class = "errMsg" id = "errEmail"></span>
+	</div></br>
+	
+	<div class = "formElement">
+	<fieldset id = "FS"><legend>Payment Method:*</legend>
+		<input type = "radio" name = "cardType" id = "none" value = "none" checked>
+			<label for = "none">None</label>
+		<input type = "radio" name = "cardType" id = "visa" value = "visa">
+			<label for = "visa">Visa</label>
+		<input type = "radio" name = "cardType" id = "MC" value = "MC">
+			<label for = "MC">Master Card</label>
+		<input type = "radio" name = "cardType" id = "AE" value = "AE">
+			<label for = "AE">American Express</label>
+	</fieldset>
+	</div></br>
+	
+	<div class = "formElement">
+		<label for = "ccNum">Credit Card Number: </label>
+			<input type = "text" name = "ccNum" id = "ccNum">
+			<span class = "errMsg" id = "errCCnum"></span>
+	</div></br>
+	
+	<label>Expiration Month: </label>
+		<select name = "expMonth" id = "expMonth">
+			<option value = "" hidden selected>Month</option>
+			<option value = "1">1</option>
+			<option value = "2">2</option>
+			<option value = "3">3</option>
+			<option value = "4">4</option>
+			<option value = "5">5</option>
+			<option value = "6">6</option>
+			<option value = "7">7</option>
+			<option value = "8">8</option>
+			<option value = "9">9</option>
+			<option value = "10">10</option>
+			<option value = "11">11</option>
+			<option value = "12">12</option>
+		</select>
+	
+	<label>Expiration Year: </label>
+		<select name = "expYear" id = "expYear">
+			<option value = "" hidden selected>Year</option>
+			<option value = "2015">2015</option>
+			<option value = "2016">2016</option>
+			<option value = "2017">2017</option>
+			<option value = "2018">2018</option>
+			<option value = "2019">2019</option>
+			<option value = "2020">2020</option>
+		</select>
+	<span  class = "errMsg" id = "errDate"></span>
+	</br></br>
+	
+	<input type = "submit" value = "Submit Information">
+</form>
+</body>
+</html>
+	

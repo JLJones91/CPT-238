@@ -1,0 +1,78 @@
+body 
+{
+	background-color: tan;
+}
+
+div
+{
+	font-size: 20pt;
+}
+
+table
+{
+	width: 400px;
+}
+
+ol
+{
+	font-family: Arial;
+}
+
+ol li:first-child 
+{
+	color: red;
+}
+
+ol li:last-child
+{
+	color: blue;
+}
+
+ol li:nth-child(4)
+{
+	color: green;
+}
+
+ol li:not(:nth-child(5))
+{
+	font-style: italic;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+.courses
+{
+	background-color: green;
+}
+
+.enclose
+{
+	width: 500px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: red;
+}
+
+.header
+{
+	background-color: darkblue;
+	color: white;
+}
+
+.altrow
+{
+	background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
